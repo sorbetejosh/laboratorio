@@ -20,3 +20,9 @@
 .grayText {
   color: gray;
 }
+.image{
+  max-width: 75%;
+  height: 50vh;
+  border-radius: 20%;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.2);
+}

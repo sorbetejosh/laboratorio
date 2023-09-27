@@ -89,11 +89,11 @@ body {
   overflow-x: hidden;
 }
 
-body {
+body{
   color: rgb(var(--foreground-rgb));
   background-color: black;
   font-family: "livvic", sans-serif;
-
+}
 
 a {
   color: inherit;

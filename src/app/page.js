@@ -26,7 +26,7 @@ export default function Home() {
           ClassName={styles.image}
         />
         <div className={styles.infoContainer}>
-          <span className={styles.tittle + " " + styles.yellowText}>josh</span>
+          <span className={styles.title + " " + styles.yellowText}>josh</span>
           <br />
           <span className={styles.title}>carlson</span>
 

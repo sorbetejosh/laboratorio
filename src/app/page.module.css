@@ -13,16 +13,21 @@
   display: flex; /* Diseño flexible */
   flex-direction: column; /* Orientación vertical */
   justify-content: center; /* Centrar contenido verticalmente */
+}
+
+.infoSection{
+  display: flex; /* Diseño flexible */
+  flex-direction: row; /* Orientación vertical */
+  justify-content: center; /* Centrar contenido verticalmente */
   height: 100vh;
   align-items: center;
 }
-
 .infoContainer{
   color: #ffffff;
   margin-left: 40px;
 }
 
-.infoContainer .tiltle {
+.infoContainer .title {
   font-size: 60px;
   font-weight: bold;
 

@@ -13,6 +13,37 @@
   display: flex; /* Diseño flexible */
   flex-direction: column; /* Orientación vertical */
   justify-content: center; /* Centrar contenido verticalmente */
+  height: 100vh;
+  align-items: center;
+}
+
+.infoContainer{
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+.infoContainer .tiltle {
+  font-size: 60px;
+  font-weight: bold;
+
+}
+
+.infoContainer .list{
+  margin-top: 30px;
+  
+
+}
+.infoContainer .list ul{
+  padding-left: 20px;
+  
+  
+
+}
+.infoContainer .list ul li{
+  margin-bottom: 20px;
+  list-style: disc;
+  
+
 }
 .yellowText {
   color: goldenrod; /* Color dorado */

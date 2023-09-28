@@ -21,31 +21,32 @@ export default function Home() {
       </header>
       <section className={styles.infoSection}>
         <img
-          src="/imagen-para-website.png"
+          src="/proyectoo.png"
           alt="imagen"
           ClassName={styles.image}
-        />   
+        />
         <div className={styles.infoContainer}>
-          <span className={styles.tittle + " " +styles.yellowText}>josh</span>
+          <span className={styles.tittle + " " + styles.yellowText}>josh</span>
           <br />
-          <span className={styles.tittle}>carlson</span>
+          <span className={styles.title}>carlson</span>
+
+          <div className={styles.list}>
+            <ul>
+              <li>
+                <span className={styles.grayText}>Age: </span>27
+              </li>
+              <li>
+                <span className={styles.grayText}>Nationatily: </span>German
+              </li>
+              <li>
+                <span className={styles.grayText}>Skill set: </span> Project Managment and financial Performance
+              </li>
+              <li>
+                <span className={styles.grayText}>Languages: </span> English, German
+              </li>
+            </ul>
+          </div>
         </div>
-        <div> className={styles.list}
-          <ul>
-            <li>
-              <span className={styles.grayText}>Age: </span>27
-             </li>
-             <li>
-            <span className={styles.grayText}>Nationatily: </span>German
-            </li>
-            <li>
-            <span className={styles.grayText}>Skill set: </span> Project Managment and financial Performance
-            </li>
-            <li>
-            <span className={styles.grayText}>Languages: </span> English, German
-            </li>
-          </ul>
-        </div>    
       </section>
     </main>
   );
